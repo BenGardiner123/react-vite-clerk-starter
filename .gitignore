@@ -137,3 +137,22 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Vercel
+.vercel
+.vercel/output
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+.dockerignore
+.docker
+
+# VSCode
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
